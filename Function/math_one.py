@@ -18,8 +18,7 @@ def remainder(i,j):
     remainder=i%j
     return remainder
 
-def details(name,age):
-   print(f"{name},{age}") 
+
 
 
 
