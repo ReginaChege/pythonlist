@@ -4,4 +4,4 @@ def hello(name):
 
 
 def welcome(Student,School):
-    print(f"welcome to{School},{tudent}")
+    print(f"welcome to{School},{Student}")

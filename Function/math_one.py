@@ -18,7 +18,17 @@ def remainder(i,j):
     remainder=i%j
     return remainder
 
+def concatenate_arg(*names):
+    answer=""
+    for name in names:
+        answer+=name
+    return answer
 
+def concatenate_kwargs(**kwargs):
+    answer=""
+    for name in kwargs.values():
+        answer+=name
+    return answer
 
 
 
